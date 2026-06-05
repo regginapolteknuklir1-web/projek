@@ -6,7 +6,7 @@ from tensorflow.keras.preprocessing import image
 from tensorflow.keras.models import load_model
 
 # Link unduhan langsung Google Drive yang utuh dan benar
-drive_link = "https://docs.google.com/uc?export=download&id=1yx-3KX9ar5ZMnPnRWFy78TTu5xB5jDb6"
+drive_link = "https://huggingface.co/stoneisreal/model-buah/resolve/main/model_buah_cnn.keras"
 model_path = "model_buah_cnn.keras"
 
 # Perintah mendownload otomatis jika file belum ada di server
