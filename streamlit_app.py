@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 
 # Link unduhan langsung Google Drive yang utuh dan benar
 drive_link = "https://huggingface.co/stoneisreal/model-buah/resolve/main/model_buah_cnn.keras"
-model_path = "model_buah_cnn.keras"
+model_path = "model_buah_segar.keras"
 
 # Perintah mendownload otomatis jika file belum ada di server
 if not os.path.exists(model_path):
