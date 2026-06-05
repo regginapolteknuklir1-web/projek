@@ -1,3 +1,14 @@
+import os
+import urllib.request
+
+# Masukkan link Google Drive kamu di sini
+drive_link = "https://drive.google.com/file/d/1yx-3KX9ar52MnPnRWFy78IIu5xB5jDb6/view?usp=sharing"
+model_path = "model_buah_cnn.keras"
+
+# Perintah mendownload otomatis jika file belum ada di server
+if not os.path.exists(model_path):
+    with st.spinner("Sedang mengunduh file model AI dari Google Drive... Mohon tunggu sebentar..."):
+        urllib.request.urlretrieve(drive_link, model_path)
 import streamlit as st
 import tensorflow as tf
 from tensorflow.keras.preprocessing import image
