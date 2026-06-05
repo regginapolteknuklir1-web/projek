@@ -2,7 +2,7 @@ import os
 import urllib.request
 
 # Masukkan link Google Drive kamu di sini
-drive_link = "https://drive.google.com/file/d/1yx-3KX9ar52MnPnRWFy78IIu5xB5jDb6/view?usp=sharing"
+drive_link = "drive_link = "https://docs.google.com/uc?export=download&id=1yx-3KX9ar5ZMnPnRWFy78TTu5xB5jDb6""
 model_path = "model_buah_cnn.keras"
 
 # Perintah mendownload otomatis jika file belum ada di server
